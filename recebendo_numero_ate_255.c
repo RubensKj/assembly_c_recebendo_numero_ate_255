@@ -116,7 +116,7 @@ RECEBER_STRING_CARACTER_NUMERO:
       cmp al,'9'
       jg  RECEBER_STRING_CARACTER_NUMERO //g greater  
       
-      // TODO: fazer as validacoes aqui
+      // Validações ficam aqui:
 	 
       cmp QNT_CARACTERES_DIGITADOS,0
       je DIGITOU_PRIMEIRO_NUMERO
